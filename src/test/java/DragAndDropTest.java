@@ -15,7 +15,7 @@ public class DragAndDropTest {
         Configuration.browserSize = "1920x1080";
     }
     @Test
-    void DragAndDropActions(){
+    void dragAndDropActions(){
         open("/drag_and_drop");
 
         var elementA=$("#column-a");
